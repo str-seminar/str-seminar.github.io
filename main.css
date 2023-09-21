@@ -1,0 +1,25 @@
+.design00 {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+ }
+ .design00 tr:nth-child(2n+1) {
+  background: #e9faf9;
+ }
+ .design00 th {
+  padding: 10px;
+  background: #b0e0e6;
+  border-right: solid 1px #696969;
+  color: #000000;
+ }
+ .design00 th:last-child {
+  border-right: none;
+ }
+ .design00 td {
+  padding: 10px;
+  border-right: solid 1px #778ca3; 
+ }
+ .design00 td:last-child {
+  border-right: none;
+ }
